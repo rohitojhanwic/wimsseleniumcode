@@ -22,7 +22,7 @@ public class LoginDetail {
 	        // Fill username and password
 	        driver.findElement(By.xpath("//input[@id='username']")).sendKeys("testing"); //enter username
 	        Thread.sleep(1000);
-	        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("India@12345"); //enter password
+	        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Rohit@12345"); //enter password
 	        Thread.sleep(10000);
 
 	        driver.findElement(By.id("j_idt36")).click(); //click on the login button
@@ -51,3 +51,4 @@ public class LoginDetail {
 	}
 
 }
+
