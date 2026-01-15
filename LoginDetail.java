@@ -15,7 +15,7 @@ public class LoginDetail {
 
 	        driver.manage().window().maximize();
 	        driver.manage().deleteAllCookies();
-	        driver.get("https://stg.nwic.in/wims/login.xhtml"); //open WIMS url
+	        driver.get("https://wims/login.xhtml"); //open WIMS url
 
 			Thread.sleep(1000);
 
@@ -51,4 +51,5 @@ public class LoginDetail {
 	}
 
 }
+
 
